@@ -13,11 +13,11 @@
   }
  
   li {
-    height: 30px;
-    float: right;
+    height: 25px;
+    float: left;
     margin-right: 0px;
     border-right: 1px solid 
-   #aaa;
+    #aaa;
     padding: 0 20px;
   }
   
@@ -28,7 +28,7 @@
   li a {
     text-decoration: none;
     color: #ccc;
-    font: 25px/1 Helvetica, Verdana, sans-serif;
+    font: 20px/1 Helvetica, Verdana, sans-serif;
     text-transform: uppercase;
     transition: all 0.5s ease;
   }
@@ -39,7 +39,7 @@
 
   li.active a {
     font-weight: bold;
-    color: #333;2111
+    color: #333;
   }
 
   img {
@@ -49,5 +49,7 @@
 
   body {
       text-align: center;
+      background-color: crimson;
   }
+
 
