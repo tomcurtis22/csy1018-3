@@ -4,15 +4,17 @@
   }
 
   nav {
-    margin: 50px;
+    margin: 52px;
   }
+  /* navigation link */
   
   ul {
     overflow: auto;
     list-style-type: none;
   }
- 
-  li {
+ /* This defines an unordered list */
+  
+ li {
     height: 25px;
     float: left;
     margin-right: 0px;
@@ -20,6 +22,7 @@
     #aaa;
     padding: 0 20px;
   }
+  /* This represents a list item */
   
   li:last-child {
     border-right: none;
@@ -28,7 +31,7 @@
   li a {
     text-decoration: none;
     color: #ccc;
-    font: 20px/1 Helvetica, Verdana, sans-serif;
+    font: 20px/1 Menlo, Verdana, sans-serif;
     text-transform: uppercase;
     transition: all 0.5s ease;
   }
@@ -43,13 +46,11 @@
   }
 
   img {
-      border-style: none;
       border-radius: 100%;
   }
-
+/* This contains the border radius that changes the image to a circle rather than a square */
   body {
       text-align: center;
       background-color: crimson;
   }
-
-
+  /* This means the text is aligned in the center and the main background colour for my landing page is crimson */

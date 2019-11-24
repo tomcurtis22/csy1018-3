@@ -2,18 +2,20 @@
     font-size: 75.5%;
     font-family: montserrat, sans-serif;
 }
-
+/* Defines the root element  */
 body{
     background-color: crimson;
 }
+/* This is used to set the background colour of the portfolio page to crimson */
 
 h1{
     font-size: 3.rem;
     font-weight: 400;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Monaco', sans-serif;
     color: white;
 }
+/* This is used to create the title of my portfolio page. It specifies the font, colour, size and weight */
 
 hr{
 margin-top: 1rem;
@@ -102,7 +104,7 @@ text-align: center;
 .gallery-item, body{
     max-width: 30%;
     grid-column: 1;
-    font-family: oswald, sans-serif;
+    font-family: Monaco, sans-serif;
     text-align: left;
 }
 
