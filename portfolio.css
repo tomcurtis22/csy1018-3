@@ -25,18 +25,20 @@ border-top: 1px solid rgba(0,0,0,0.1)
 }
 
 .container {
-    width: 96rem;
+    width: 95rem;
     margin: 2rem auto;
 }
+/* The container tag is used so that i can style the width and margin */
 
 .gallery-item{
-    max-width: 100%;
+    max-width: 99%;
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: all .3s;
     overflow: hidden;
     position: relative;
 }
+/* An image gallery is used to display the six placeholder images within my portfolio page */
 
 .gallery {
     display: grid;
@@ -54,6 +56,7 @@ border-top: 1px solid rgba(0,0,0,0.1)
     backface-visibility: hidden;
     object-fit: cover;
 }
+/* This contains the image details */
 
 .middle{
 transition: .5s ease;
@@ -68,17 +71,18 @@ text-align: center;
 .gallery-item:hover .image{
     filter: grayscale(1);
 }
-
+/* When i hover over an image it appears grey thus displaying that its ready to be pressed */
 .gallery-item:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.8);
 }
 
 .text{
     color: white;
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 16px 32px;
     font-family: oswald, sans-serif;
 }
+/* This displays all the details for the text used on the portfolio page */
 
 @media (max-width: 750px){
     .gallery-item, body{
@@ -90,19 +94,19 @@ text-align: center;
 
     div.container, h1{
         text-align: left;
-        margin-left: 2em;
+        margin-left: 1.4em;
     }
 
     div.text{
-        font-size: 2.5em;
+        font-size: 2.4em;
     }
 
 }
 
-@media (max-width: 500x){
+@media (max-width: 400x){
 
 .gallery-item, body{
-    max-width: 30%;
+    max-width: 28%;
     grid-column: 1;
     font-family: Monaco, sans-serif;
     text-align: left;
@@ -110,10 +114,11 @@ text-align: center;
 
 div.container, h1{
     text-align: left;
-    margin-left:2em;
+    margin-left:1.8em;
 }
 
 div.text{
-    font-size: 2.5em;
+    font-size: 2.6em;
 }
 }
+/* A media query is used to to check all the above (height, width, font etc) in different formats therefore it caters for different screen types, for example a mobile phone will be different to a laptop */
